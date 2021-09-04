@@ -1,0 +1,27 @@
+
+/* to mirror the video */
+#myVidPlayer
+{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+
+#myVidPlayer
+{
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+    margin: 20px;
+    
+}
+
+body{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius:25px;
+    text-align: center;
+  }
