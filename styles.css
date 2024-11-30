@@ -18,3 +18,15 @@
 #videoDiv {
     text-align: center;
 }
+
+#audioDiv{
+    margin: 30px 50px;
+}
+
+.form-select {
+    margin-bottom: 0;
+}
+
+.container>div{
+    margin-bottom: 20px;
+}
